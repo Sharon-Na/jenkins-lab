@@ -1,6 +1,6 @@
 public class BookManager {
     
-    // 도서 관리 클래스
+	// 도서 관리 클래스 수정
     private String bookTitle;
     
     public void addBook(String title) {
