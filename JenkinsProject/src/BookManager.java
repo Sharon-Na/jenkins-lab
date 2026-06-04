@@ -17,10 +17,4 @@ public class BookManager {
     public int getBookCount() {
         return bookCount;
     }
-    
-    //removeBook 추가 
-    public void removeBook() {
-        this.bookTitle = null;
-        System.out.println("Book removed");
-    }
 }
