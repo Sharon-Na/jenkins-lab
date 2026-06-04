@@ -1,6 +1,6 @@
 public class BookManager {
 
-    // 도서 관리 클래스 수정 
+    // 도서 관리 클래스
     private String bookTitle;
     private int bookCount = 0;
 
@@ -16,11 +16,5 @@ public class BookManager {
     
     public int getBookCount() {
         return bookCount;
-    }
-    
-    //removeBook 추가 
-    public void removeBook() {
-        this.bookTitle = null;
-        System.out.println("Book removed");
     }
 }
